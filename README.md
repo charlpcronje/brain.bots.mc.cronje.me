@@ -1,16 +1,6 @@
-# Quivr - Your Second Brain, Empowered by Generative AI
+# The brain for Mall Chat
 
-<div align="center">
-    <img src="./logo.png" alt="Quivr-logo" width="30%"  style="border-radius: 50%; padding-bottom: 20px"/>
-</div>
-
-<div align="center">
-<a href="https://discord.gg/HUpRgp2HG8">
-  <img src="https://img.shields.io/badge/discord-join%20chat-blue.svg" alt="Join our Discord" height="40">
-</a>
-</div>
-
-Quivr, your second brain, utilizes the power of GenerativeAI to store and retrieve unstructured information. Think of it as Obsidian, but turbocharged with AI capabilities.
+Utilizes the power of GenerativeAI to store and retrieve unstructured information. Think of it as Obsidian, but turbocharged with AI capabilities.
 
 [Roadmap here](https://brain.quivr.app)
 
@@ -31,17 +21,10 @@ Quivr, your second brain, utilizes the power of GenerativeAI to store and retrie
   - Word
   - Audio
   - Video
-- **Open Source**: Freedom is beautiful, so is Quivr. Open source and free to use.
-
-## Demo Highlights 🎥
-
-https://github.com/StanGirard/quivr/assets/19614572/a6463b73-76c7-4bc0-978d-70562dca71f5
 
 ## Getting Started: 🚀
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-You can find everything on the documentation [here](https://brain.quivr.app/)
 
 ### Prerequisites 📋
 
@@ -131,51 +114,3 @@ docker compose -f docker-compose.yml up --build
 ```
 docker compose -f docker-compose.dev.yml up --build
 ```
-
-
-
-## Contributors ✨
-
-Thanks goes to these wonderful people:
-<a href="https://github.com/stangirard/quivr/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=stangirard/quivr" />
-</a>
-
-## Contribute 🤝
-
-Got a pull request? Open it, and we'll review it as soon as possible. Check out our project board [here](https://github.com/users/StanGirard/projects/5) to see what we're currently focused on, and feel free to bring your fresh ideas to the table!
-
-
-- [Open Issues](https://github.com/StanGirard/quivr/issues)
-- [Open Pull Requests](https://github.com/StanGirard/quivr/pulls)
-- [Good First Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
-- [Frontend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Afrontend)
-- [Backend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Abackend)
-
-## Sponsors ❤️
-
-This project could not be possible without the support of our sponsors. Thank you for your support!
-
-<a href="https://www.theodo.fr/">
-  <img src="https://avatars.githubusercontent.com/u/332041?s=200&v=4" alt="Theodo" style="padding: 10px" width="70px">
-</a>
-<a href="https://www.padok.fr/">
-  <img src="https://avatars.githubusercontent.com/u/46325765?s=200&v=4" alt="Padok" style="padding: 10px" width="70px">
-</a>
-<a href="https://www.aleios.com/">
-  <img src="https://avatars.githubusercontent.com/u/97908131?s=200&v=4" alt="Aleios" style="padding: 10px" width="70px">
-</a>
-<a href="https://www.bam.tech/">
-  <img src="https://avatars.githubusercontent.com/u/9597329?s=200&v=4" alt="BAM" style="padding: 10px" width="70px">
-</a>
-
-
-
-## License 📄
-
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details
-
-
-## Stars History 📈
-
-[![Star History Chart](https://api.star-history.com/svg?repos=StanGirard/quivr&type=Timeline)](https://star-history.com/#StanGirard/quivr&Timeline)
