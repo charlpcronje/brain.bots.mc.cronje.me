@@ -10,7 +10,7 @@ services:
     container_name: web
     restart: always
     ports:
-      - 3000:3000
+      - 5051:3000
   backend:
     env_file:
       - ./backend/.env

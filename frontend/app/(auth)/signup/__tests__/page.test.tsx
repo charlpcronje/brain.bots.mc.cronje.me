@@ -37,9 +37,9 @@ describe("SignUp component", () => {
     const emailInput = getByTestId("email-field") as HTMLInputElement;
     const passwordInput = getByTestId("password-field") as HTMLInputElement;
 
-    fireEvent.change(emailInput, { target: { value: "user@quivr.app" } });
+    fireEvent.change(emailInput, { target: { value: "user@example.com" } });
     fireEvent.change(passwordInput, { target: { value: "password123" } });
-    expect(emailInput.value).toBe("user@quivr.app");
+    expect(emailInput.value).toBe("user@examle.com");
     expect(passwordInput.value).toBe("password123");
   });
 

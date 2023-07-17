@@ -1,64 +1,60 @@
-import clsx from 'clsx';
-import React from 'react';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import React from "react";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Universal Data Acceptance',
+    title: "Universal Data Acceptance",
     description: (
       <>
-        Quivr can handle almost any type of data you throw at it. Text, images,
-        code snippets, we've got you covered.
+        Mall Chat can handle almost any type of data you throw at it. Text,
+        images, code snippets, we've got you covered.
       </>
     ),
   },
   {
-    title: 'Generative AI',
+    title: "Generative AI",
     description: (
       <>
-        Quivr employs advanced AI to assist you in generating and retrieving information.
+        Mall Chat employs advanced AI to assist you in generating and retrieving
+        information.
       </>
     ),
   },
   {
-    title: 'Fast and Efficient',
+    title: "Fast and Efficient",
     description: (
       <>
-        Designed with speed and efficiency at its core. Quivr ensures rapid access to your data.
+        Designed with speed and efficiency at its core. Mall Chat ensures rapid
+        access to your data.
       </>
     ),
   },
   {
-    title: 'Secure',
+    title: "Secure",
+    description: <>Your data, your control. Always.</>,
+  },
+  {
+    title: "File Compatibility",
     description: (
       <>
-        Your data, your control. Always.
+        Mall Chat is compatible with Text, Markdown, PDF, Powerpoint, Excel,
+        Word, Audio, and Video files.
       </>
     ),
   },
   {
-    title: 'File Compatibility',
+    title: "Open Source",
     description: (
-      <>
-        Quivr is compatible with Text, Markdown, PDF, Powerpoint, Excel, Word, Audio, and Video files.
-      </>
-    ),
-  },
-  {
-    title: 'Open Source',
-    description: (
-      <>
-        Freedom is beautiful, so is Quivr. Open source and free to use.
-      </>
+      <>Freedom is beautiful, so is Mall Chat. Open source and free to use.</>
     ),
   },
 ];
 
-function Feature({ title, description}) {
+function Feature({ title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-      </div>
+    <div className={clsx("col col--4")}>
+      <div className="text--center"></div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

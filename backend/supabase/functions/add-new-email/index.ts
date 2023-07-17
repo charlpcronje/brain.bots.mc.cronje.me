@@ -39,9 +39,9 @@ serve(
       const requestBody = {
         email: payload.record.email,
         send_welcome_email: false,
-        utm_source: "quivr",
+        utm_source: "Mall Chat",
         utm_medium: "organic",
-        referring_site: "https://quivr.app",
+        referring_site: "https://brain.bots.mc.cronje.info",
       };
 
       const response = await fetch(url, {

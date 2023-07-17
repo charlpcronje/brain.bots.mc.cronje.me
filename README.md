@@ -2,13 +2,11 @@
 
 Utilizes the power of GenerativeAI to store and retrieve unstructured information. Think of it as Obsidian, but turbocharged with AI capabilities.
 
-[Roadmap here](https://brain.quivr.app)
-
 ## Key Features 🎯
 
-- **Universal Data Acceptance**: Quivr can handle almost any type of data you throw at it. Text, images, code snippets, we've got you covered.
-- **Generative AI**: Quivr employs advanced AI to assist you in generating and retrieving information.
-- **Fast and Efficient**: Designed with speed and efficiency at its core. Quivr ensures rapid access to your data.
+- **Universal Data Acceptance**: Mall Chat can handle almost any type of data you throw at it. Text, images, code snippets, we've got you covered.
+- **Generative AI**: Mall Chat employs advanced AI to assist you in generating and retrieving information.
+- **Fast and Efficient**: Designed with speed and efficiency at its core. Mall Chat ensures rapid access to your data.
 - **Secure**: Your data, your control. Always.
 - **OS Compatible**: Ubuntu 22 or upper.
 - **File Compatibility**: 
@@ -48,12 +46,14 @@ Additionally, you'll need a [Supabase](https://supabase.com/) account for:
   - If you don't have an SSH key set up:
   
   ```bash
-  git clone https://github.com/StanGirard/Quivr.git && cd Quivr
+  mkdir brain && cd brain
+  git clone https://github.com/charlpcronje/brain.bots.mc.cronje.me.git .
   ```
   - If you have an SSH key set up or want to add it ([guide here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account))
   
   ```bash
-  git clone git@github.com:StanGirard/Quivr.git && cd Quivr
+   mkdir brain && cd brain
+  git clone git@github.com:StanGirard/brain.bots.mc.cronje.me.git .
   ```
 
 - **Step 2**: Use the install helper
@@ -98,8 +98,7 @@ chmod +x migration.sh
 And choose either create_scripts if it's your first time or migrations if you are updating your database.
 
 
-All the scripts can be found in the [scripts](scripts/) folder
-> _If you come from an old version of Quivr, run the scripts in [migration script](scripts/) to migrate your data to the new version in the order of date_
+All the scripts can be found in the [scripts](scripts/) folde
 
 - **Step 5**: Launch the app
 

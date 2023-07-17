@@ -16,7 +16,7 @@ const Footer = (): JSX.Element => {
           href={GITHUB_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Quivr GitHub"
+          aria-label="Mall Chat GitHub"
         >
           <img
             className="h-8 w-auto dark:invert"
@@ -28,7 +28,7 @@ const Footer = (): JSX.Element => {
           href={TWITTER_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Quivr Twitter"
+          aria-label="Cronje Twitter"
         >
           <img className="h-8 w-auto" src="/twitter.svg" alt="Twitter" />
         </a>
@@ -36,7 +36,7 @@ const Footer = (): JSX.Element => {
           href={DISCORD_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Quivr Discord"
+          aria-label="Mall Chat Discord"
         >
           <img className="h-8 w-auto" src="/discord.svg" alt="Discord" />
         </a>

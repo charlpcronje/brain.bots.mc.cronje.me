@@ -41,4 +41,5 @@
     "**/.docusaurus/": true,
     "**/node_modules/": true,
   },
+  "nuxt.isNuxtApp": false,
 }

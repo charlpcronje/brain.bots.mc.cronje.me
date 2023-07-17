@@ -24,8 +24,8 @@ const Hero = (): JSX.Element => {
     return "sticky";
   });
 
-  const videoScaleSync = useTransform(scrollYProgress, [0, 0.5], [0.9, 1]);
-  const videoScale = useSpring(videoScaleSync, { mass: 0.1, stiffness: 100 });
+  //const videoScaleSync = useTransform(scrollYProgress, [0, 0.5], [0.9, 1]);
+  //const videoScale = useSpring(videoScaleSync, { mass: 0.1, stiffness: 100 });
 
   const opacitySync = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
   const opacity = useSpring(opacitySync, { mass: 0.1, stiffness: 200 });
@@ -40,29 +40,29 @@ const Hero = (): JSX.Element => {
         className="top-24 -z-0 flex flex-col gap-2 items-center justify-center pt-24"
       >
         <h1 className="text-5xl sm:text-7xl font-bold max-w-lg sm:max-w-xl">
-          Get a Second Brain with <span className="text-primary">Quivr</span>
+          Get a Second Brain with <span className="text-primary">Mall Chat</span>
         </h1>
         <p className="text-base max-w-sm text-gray-500 mb-5 sm:mb-10">
-          Quivr is your second brain in the cloud, designed to easily store and
+          Mall Chat Brain, designed to easily store and
           retrieve unstructured information.
         </p>
         <Link href={"/signup"}>
           <Button>Get Started</Button>
         </Link>
-        <Link target="_blank" href={"https://github.com/StanGirard/quivr/"}>
+        <Link target="_blank" href={"https://github.com/charlpcronje/brain.bots.mc.cronje.me"}>
           <Button variant={"tertiary"}>
             Github <MdNorthEast />
           </Button>
         </Link>
       </motion.div>
-      <motion.video
+      {/* <motion.video
         style={{ scale: videoScale }}
         className="rounded-md max-w-screen-lg shadow-lg dark:shadow-white/25 border dark:border-white/25 w-full bg-white dark:bg-black"
         src="https://user-images.githubusercontent.com/19614572/239713902-a6463b73-76c7-4bc0-978d-70562dca71f5.mp4"
         autoPlay
         muted
         loop
-      />
+      /> */}
     </section>
   );
 };
